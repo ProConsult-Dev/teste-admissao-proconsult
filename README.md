@@ -32,8 +32,6 @@ Requisitos:
 
 - Os chamados devem possuir 3 possíveis status: Aberto, Em atendimento e Finalizado. Um chamado deve nascer com o status Aberto. Quando um colaborador responder o chamado, ele deve passar para Em atendimento. Quando o chamado for finalizado, independente do problema ter sido resolvido ou não, deve ir para o status de Finalizado.
 
-- Apenas usuários do tipo Colaborador devem conseguir responder os chamados abertos.
-
 - Considere o funcionamento de um tópico de um fórum como exemplo para criar o ciclo de vida de um chamado, ou seja, desde sua abertura até sua finalização.
 
 **Obs:** Caso não goste da proposta, você pode mudar o tema, porém é importante que a sua aplicação tenha os mesmos princípios da proposta do teste.

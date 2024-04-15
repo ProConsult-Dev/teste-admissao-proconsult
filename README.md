@@ -32,9 +32,13 @@ Requisitos:
 
 - Os chamados devem possuir 3 possíveis status: Aberto, Em atendimento e Finalizado. Um chamado deve nascer com o status Aberto. Quando um colaborador responder o chamado, ele deve passar para Em atendimento. Quando o chamado for finalizado, independente do problema ter sido resolvido ou não, deve ir para o status de Finalizado.
 
+- Quando um chamado for aberto pelo cliente, os usuários do tipo 'Colaborador' devem receber um e-mail avisando de que um chamado foi aberto.
+
 - Considere o funcionamento de um tópico de um fórum como exemplo para criar o ciclo de vida de um chamado, ou seja, desde sua abertura até sua finalização.
 
-**Obs:** Caso não goste da proposta, você pode mudar o tema, porém é importante que a sua aplicação tenha os mesmos princípios da proposta do teste.
+Caso não goste da proposta, você pode mudar o tema, porém é importante que a sua aplicação tenha os mesmos princípios da proposta do teste.
+
+**Obs:** O envio de e-mail estar funcionando de verdade na sua máquina não é obrigatório, porém deve ser criado de maneira que ao substituírmos as credenciais do nosso lado o envio funcione normalmente sem alterar nada do código.
 
 ## Avaliação
 
@@ -61,7 +65,7 @@ A avaliação levará em conta os seguintes critérios:
 
 ## Observações finais
 
-A aplicação não precisa ser complexa. Você pode desenvolver separando o back-end do front-end, utilizando o Laravel com o VueJs, quanto fazendo somente um módulo, como nas aplicações mais antigas.
+A aplicação não precisa ser complexa. Você pode desenvolver separando o back-end do front-end, utilizando o Laravel com o VueJs, quanto fazendo somente um módulo.
 
 A autenticação não precisa ser complexa. Pode ser feita também sem o auxílio de um framework por meio de sessões ou com algum pacote que já implementa essas funcionalidades, como por exemplo o Sanctum, utilizando tokens ou cookie.
 
